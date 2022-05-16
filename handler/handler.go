@@ -1,9 +1,9 @@
 package handler
 
 import (
-    "net/http"
+	"net/http"
     
-    "github.com/labstack/echo"
+	"github.com/labstack/echo"
 )
 
 func GetHello(c echo.Context) error {
